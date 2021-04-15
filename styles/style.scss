@@ -1,0 +1,86 @@
+$verydarkmagenta: hsl(300, 43%, 22%);
+$softpink: hsl(333, 80%, 67%);
+$darkgrayishmagenta: hsl(303, 10%, 53%);
+$lightgrayishmagenta: hsl(300, 24%, 96%);
+$whitecolor: hsl(0, 0%, 100%);
+$header1: 5rem;
+$header2: 2rem;
+$header3: 1.5rem;
+$header4: 1rem;
+$font: "Spartan", sans-serif;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import "global";
+@import "intro-section";
+@import "cards-section";
+
+@media screen and (min-width: 375px) and (max-width: 1200px) {
+  body {
+    background: url("/img/bg-pattern-top-mobile.svg"),
+      url("/img/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-attachment: fixed;
+    font-family: $font;
+  }
+
+  .intro-section {
+    @include flex(center, center, row);
+    width: 100%;
+
+    .ratings {
+      @include flex(center, center, column);
+      white-space: pre;
+      margin: 0rem;
+
+      .first-rating {
+        width: 100%;
+        margin-top: 2rem;
+        padding: 1rem;
+      }
+
+      .second-rating {
+        width: 100%;
+        margin: 0rem;
+        margin-top: 1rem;
+        padding: 1rem;
+      }
+
+      .third-rating {
+        width: 100%;
+        margin: 0rem;
+        margin-top: 1rem;
+        padding: 1rem;
+      }
+    }
+  }
+
+  .cards-container {
+    @include flex(center, center, column);
+    flex-wrap: wrap;
+
+    .colten-card {
+      width: 100%;
+      margin: 0rem;
+    }
+
+    .irene-card {
+      width: 100%;
+      margin: 0rem;
+      margin-top: 3rem;
+    }
+
+    .anne-card {
+      width: 100%;
+      margin: 0rem;
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+    }
+  }
+}

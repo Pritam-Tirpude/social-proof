@@ -1,0 +1,146 @@
+.cards-container {
+  @include flex(center, center, row);
+  flex-wrap: wrap;
+  width: 100%;
+
+  //Colten Smith
+  .colten-card {
+    background: $verydarkmagenta;
+    width: 35%;
+    min-height: 30vh;
+    border-radius: 1.5rem;
+    padding: 5rem 2rem;
+    margin: 2rem 5rem;
+    flex: 1;
+
+    .card-icon {
+      @include flex(flex-start, center, row);
+      padding: 1rem 2rem;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .name-buyer {
+      display: block;
+      position: absolute;
+      margin-left: 10rem;
+      margin-bottom: 2rem;
+
+      h4 {
+        font-size: $header2;
+        color: $whitecolor;
+      }
+      h5 {
+        margin-top: 0.5rem;
+        font-size: $header3;
+        font-weight: lighter;
+        color: $softpink;
+      }
+    }
+
+    p {
+      margin-left: 1.5rem;
+      margin-top: 3rem;
+      color: $whitecolor;
+      font-size: medium;
+      line-height: 2.5rem;
+    }
+  }
+
+  // Irene Roberts
+  .irene-card {
+    background: $verydarkmagenta;
+    width: 35%;
+    min-height: 30vh;
+    border-radius: 1.5rem;
+    padding: 5rem 2rem;
+    margin: 2rem 5rem;
+    margin-top: 7rem;
+    margin-left: 0rem;
+    flex: 1;
+
+    .irene-card-icon {
+      @include flex(flex-start, center, row);
+      padding: 1rem 2rem;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .irene-name-buyer {
+      display: block;
+      position: absolute;
+      margin-left: 10rem;
+      margin-bottom: 2rem;
+
+      h4 {
+        font-size: $header2;
+        color: $whitecolor;
+      }
+      h5 {
+        margin-top: 0.5rem;
+        font-size: $header3;
+        font-weight: lighter;
+        color: $softpink;
+      }
+    }
+
+    p {
+      margin-left: 1.5rem;
+      margin-top: 3rem;
+      color: $whitecolor;
+      font-size: medium;
+      line-height: 2.5rem;
+    }
+  }
+
+  //Anne Wallace
+  .anne-card {
+    background: $verydarkmagenta;
+    width: 35%;
+    min-height: 30vh;
+    border-radius: 1.5rem;
+    padding: 5rem 2rem;
+    margin: 2rem 5rem;
+    margin-left: 0rem;
+    margin-top: 15rem;
+    flex: 1;
+
+    .anne-card-icon {
+      @include flex(flex-start, center, row);
+      padding: 1rem 2rem;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .anne-name-buyer {
+      display: block;
+      position: absolute;
+      margin-left: 10rem;
+      margin-bottom: 2rem;
+
+      h4 {
+        font-size: $header2;
+        color: $whitecolor;
+      }
+      h5 {
+        margin-top: 0.5rem;
+        font-size: $header3;
+        font-weight: lighter;
+        color: $softpink;
+      }
+    }
+    p {
+      margin-left: 1.5rem;
+      margin-top: 3rem;
+      color: $whitecolor;
+      font-size: medium;
+      line-height: 2.5rem;
+    }
+  }
+}

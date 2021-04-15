@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background: url("/img/bg-pattern-top-desktop.svg"), url("/img/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-attachment: fixed;
+  font-family: "Spartan", sans-serif;
+}
+
+.intro-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10rem;
+}
+
+.intro-section .intro-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.intro-section .intro-text h1 {
+  font-size: 5rem;
+  color: #502050;
+}
+
+.intro-section .intro-text p {
+  margin-top: 1rem;
+  font-size: medium;
+  color: #937b92;
+  line-height: 2.5rem;
+}
+
+.intro-section .ratings {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 40rem;
+          flex: 2 40rem;
+  margin-left: 5rem;
+}
+
+.intro-section .ratings .first-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2rem 2rem;
+  background: #f7f2f7;
+  border-radius: 1rem;
+  width: 80%;
+}
+
+.intro-section .ratings .first-rating h2 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: #502050;
+}
+
+.intro-section .ratings .first-rating img {
+  margin: 1rem;
+}
+
+.intro-section .ratings .second-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2rem 2rem;
+  background: #f7f2f7;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  width: 80%;
+}
+
+.intro-section .ratings .second-rating h2 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: #502050;
+}
+
+.intro-section .ratings .second-rating img {
+  margin: 1rem;
+}
+
+.intro-section .ratings .third-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2rem 2rem;
+  background: #f7f2f7;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  width: 80%;
+}
+
+.intro-section .ratings .third-rating h2 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: #502050;
+}
+
+.intro-section .ratings .third-rating img {
+  margin: 1rem;
+}
+
+.cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards-container .colten-card {
+  background: #502050;
+  width: 35%;
+  min-height: 30vh;
+  border-radius: 1.5rem;
+  padding: 5rem 2rem;
+  margin: 2rem 5rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.cards-container .colten-card .card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1rem 2rem;
+}
+
+.cards-container .colten-card .card-icon img {
+  border-radius: 50%;
+}
+
+.cards-container .colten-card .name-buyer {
+  display: block;
+  position: absolute;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+.cards-container .colten-card .name-buyer h4 {
+  font-size: 2rem;
+  color: white;
+}
+
+.cards-container .colten-card .name-buyer h5 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #ee68a4;
+}
+
+.cards-container .colten-card p {
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+  color: white;
+  font-size: medium;
+  line-height: 2.5rem;
+}
+
+.cards-container .irene-card {
+  background: #502050;
+  width: 35%;
+  min-height: 30vh;
+  border-radius: 1.5rem;
+  padding: 5rem 2rem;
+  margin: 2rem 5rem;
+  margin-top: 7rem;
+  margin-left: 0rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.cards-container .irene-card .irene-card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1rem 2rem;
+}
+
+.cards-container .irene-card .irene-card-icon img {
+  border-radius: 50%;
+}
+
+.cards-container .irene-card .irene-name-buyer {
+  display: block;
+  position: absolute;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+.cards-container .irene-card .irene-name-buyer h4 {
+  font-size: 2rem;
+  color: white;
+}
+
+.cards-container .irene-card .irene-name-buyer h5 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #ee68a4;
+}
+
+.cards-container .irene-card p {
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+  color: white;
+  font-size: medium;
+  line-height: 2.5rem;
+}
+
+.cards-container .anne-card {
+  background: #502050;
+  width: 35%;
+  min-height: 30vh;
+  border-radius: 1.5rem;
+  padding: 5rem 2rem;
+  margin: 2rem 5rem;
+  margin-left: 0rem;
+  margin-top: 15rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.cards-container .anne-card .anne-card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1rem 2rem;
+}
+
+.cards-container .anne-card .anne-card-icon img {
+  border-radius: 50%;
+}
+
+.cards-container .anne-card .anne-name-buyer {
+  display: block;
+  position: absolute;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+.cards-container .anne-card .anne-name-buyer h4 {
+  font-size: 2rem;
+  color: white;
+}
+
+.cards-container .anne-card .anne-name-buyer h5 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #ee68a4;
+}
+
+.cards-container .anne-card p {
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+  color: white;
+  font-size: medium;
+  line-height: 2.5rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1200px) {
+  body {
+    background: url("/img/bg-pattern-top-mobile.svg"), url("/img/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-attachment: fixed;
+    font-family: "Spartan", sans-serif;
+  }
+  .intro-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  .intro-section .ratings {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    white-space: pre;
+    margin: 0rem;
+  }
+  .intro-section .ratings .first-rating {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  .intro-section .ratings .second-rating {
+    width: 100%;
+    margin: 0rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .intro-section .ratings .third-rating {
+    width: 100%;
+    margin: 0rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cards-container .colten-card {
+    width: 100%;
+    margin: 0rem;
+  }
+  .cards-container .irene-card {
+    width: 100%;
+    margin: 0rem;
+    margin-top: 3rem;
+  }
+  .cards-container .anne-card {
+    width: 100%;
+    margin: 0rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
